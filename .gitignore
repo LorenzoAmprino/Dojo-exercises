@@ -1,0 +1,93 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Mac OS X
+.DS_Store
+
+# Spring Boot
+**/application*.yml
+!**/src/**/application*.yml
+**/application*.yaml
+!**/src/**/application*.yaml
+**/application*.properties
+!**/src/**/application*.properties
+
+# H2 database files
+*.h2.db
+*.lock.db
+
+# HSQL database
+hsqldb/
+
+# Hibernate
+hibernate_*.log
+
+# Local development environment files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Node.js
+node_modules/
+
+# Build output
+dist/
+
+# Local configuration files
+*.local.yml
+*.local.yaml
+*.local.properties
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# H2 database files
+*.h2.db
+*.lock.db
+*.trace.db

@@ -2,6 +2,7 @@ package it.peoplefirst.dojo.Exercises.biblioteca.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import lombok.*;
 
 import java.util.List;
@@ -17,5 +18,6 @@ public class Utente {
     private String id;
     private String nome;
     private String numeroTessera;
-    private List<Prestito> libriInPrestito;
+    @ManyToMany
+    private List<Libro> libriPreferiti;
 }
