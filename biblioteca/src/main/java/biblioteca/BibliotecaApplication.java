@@ -1,13 +1,13 @@
-package it.peoplefirst.dojo.Exercises;
+package biblioteca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExercisesApplication {
+public class BibliotecaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExercisesApplication.class, args);
+		SpringApplication.run(BibliotecaApplication.class, args);
 	}
 
 }
